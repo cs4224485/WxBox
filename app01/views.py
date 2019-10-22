@@ -135,7 +135,7 @@ def sendmsg(request):
             "touser": openid,
             "msgtype": "text",
             "text": {
-                "content": '云姐好美呀'
+                "content": '今天的天气很好'
             }
         }
         response = requests.post(
@@ -163,11 +163,11 @@ def sendmsg(request):
                 "template_id": '0XbLbuNkn3wPPAYRVXM-MZ0gU0tPvVbsjfc1qoSH6CM',
                 "data": {
                     "first": {
-                        "value": "云姐",
+                        "value": "CS",
                         "color": "#173177"
                     },
                     "keyword1": {
-                        "value": "美女",
+                        "value": "sam",
                         "color": "#173177"
                     },
                 }
